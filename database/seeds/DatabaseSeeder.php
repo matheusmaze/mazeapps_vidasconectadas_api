@@ -17,7 +17,6 @@ class DatabaseSeeder extends Seeder
         $this->call(TransactionSeed::class);
         $this->call(InstitutionSeed::class);
         $this->call(BuySeed::class);
-        $this->call(UserStandard::class);
         $this->call(GraficSeed::class);
     }
 }
